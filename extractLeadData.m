@@ -1,3 +1,4 @@
+% Written by James Guentert
 function [Lead, t, loc] = extractLeadData(filename)
 % EXTRACTLEADDATA Processes ECG lead data from a CSV file, applies detrending,
 % lowpass and bandstop filtering, corrects QRS amplitude, and saves the variables.
